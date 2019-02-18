@@ -937,9 +937,12 @@ judicialSale_tyc = {
     "introduction":""                   #描述
 }
 #47 公司地址坐标
-location = {
-    "lat":"",	                    #经度
-    "lng":""                        #纬度
+baidulocation = {
+    location = {
+	"address":"",                   #公司地址
+        "lat":"",	                #经度
+        "lng":"",                       #纬度
+    }
 }
 #48 融资项目
 financeProject = {
